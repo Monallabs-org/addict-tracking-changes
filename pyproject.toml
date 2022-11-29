@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "addict"
+dynamic = ["version", "description"]
+
+[tool.hatch.version]
+path = "src/addict/__init__.py"
+
+[project.urls]
+Home = "https://justpy.io/"
+Documentation = "https://justpy.io/"
+Source = "https://github.com/monallabs-org/addict"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
