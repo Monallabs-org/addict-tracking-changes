@@ -8,6 +8,7 @@ addict = {editable = true, path = "."}
 
 [dev-packages]
 pytest = "*"
+black = "*"
 
 [requires]
 python_version = "3.11"
