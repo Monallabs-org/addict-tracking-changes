@@ -135,8 +135,6 @@ for _ in oj.dictWalker(x):
 
 ```
 
+
 ### EndNotes
-- Docs (in readthedocs format): https://monallabs-org.github.io/addict-tracking-changes/#introduction
-
 - Developed By: webworks.monallabs.in
-

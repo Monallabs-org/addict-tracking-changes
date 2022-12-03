@@ -1,11 +1,5 @@
 import copy
 
-# don't want namedtuple to dictionified
-import logging
-
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-
 
 def isnamedtupleinstance(x):
     t = type(x)

@@ -5,15 +5,11 @@ site_author: Kabira K
 repo_name: addict-tracking-changes
 repo_url: https://github.com/Monallabs-org/addict-tracking-changes
 
-plugins:
-    - search
-
-
 extra:
-    docdate: 2022-11-05
-    version: 0.10.5
     blog_url: https://webworks.monallabs.in/apps/addict-tracking-changes
 
 nav:
-    - Introduction: 'main_doc.md'
+    - Introduction: 'README.md'
 
+theme:
+    name: readthedocs
